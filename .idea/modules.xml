@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cv-test-drive.iml" filepath="$PROJECT_DIR$/.idea/modules/cv-test-drive.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cv-test-drive-build.iml" filepath="$PROJECT_DIR$/.idea/modules/cv-test-drive-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scala_comp_robo_sign_detection.iml" filepath="$PROJECT_DIR$/.idea/modules/scala_comp_robo_sign_detection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scala_comp_robo_sign_detection-build.iml" filepath="$PROJECT_DIR$/.idea/modules/scala_comp_robo_sign_detection-build.iml" />
     </modules>
   </component>
 </project>
