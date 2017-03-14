@@ -1,0 +1,12 @@
+2017-03-13 22:10:40 [main] main.run_tests()
+TRACE: Starting basic test...
+2017-03-13 22:10:41 [main] org.dhash.util.tests.imshow_test()
+TRACE: Showing /lena.bmp in a new JFrame
+2017-03-13 22:10:41 [main] org.dhash.util.tests.imshow_test()
+TRACE: Test complete, closing JFrame
+2017-03-13 22:10:41 [main] main.run_tests()
+TRACE: Basic test complete
+2017-03-13 22:10:41 [main] main.run_tests()
+TRACE: Starting SIFT test
+2017-03-13 22:10:41 [main] main.run_tests()
+TRACE: SIFT test complete
