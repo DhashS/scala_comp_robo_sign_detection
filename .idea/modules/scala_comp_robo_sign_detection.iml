@@ -25,6 +25,18 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="SBT: org.scala-lang:scala-library:2.12.1:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.glassfish.tyrus:tyrus-websocket-core:1.2.1:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.glassfish.tyrus:tyrus-spi:1.2.1:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.glassfish.tyrus:tyrus-core:1.2.1:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.glassfish.tyrus:tyrus-container-grizzly:1.2.1:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.glassfish.tyrus:tyrus-client:1.2.1:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.glassfish.grizzly:grizzly-rcm:2.3.3:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.glassfish.grizzly:grizzly-http-server:2.3.3:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.glassfish.grizzly:grizzly-http:2.3.3:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.glassfish.grizzly:grizzly-framework:2.3.3:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.glassfish:javax.json:1.0.4:jar" level="project" />
+    <orderEntry type="library" name="SBT: javax.websocket:javax.websocket-api:1.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: edu.wpi.rail:jrosbridge:0.2.0:jar" level="project" />
     <orderEntry type="library" name="SBT: org.tinylog:tinylog:1.2:jar" level="project" />
     <orderEntry type="library" name="SBT: org.bytedeco:javacpp:1.3:jar" level="project" />
     <orderEntry type="library" name="SBT: org.bytedeco:javacv:1.3.1:jar" level="project" />
@@ -110,6 +122,21 @@
     <orderEntry type="library" name="SBT: org.bytedeco.javacpp-presets:videoinput:0.200-1.3:windows-x86:jar" level="project" />
     <orderEntry type="library" name="SBT: org.bytedeco.javacpp-presets:videoinput:0.200-1.3:windows-x86_64:jar" level="project" />
     <orderEntry type="library" name="SBT: org.bytedeco.javacpp-presets:videoinput-platform:0.200-1.3:jar" level="project" />
-    <orderEntry type="library" name="rosjava_core" level="project" />
+    <orderEntry type="library" name="SBT: com.fasterxml.jackson.core:jackson-annotations:2.2.3:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.fasterxml.jackson.core:jackson-core:2.2.3:jar" level="project" />
+    <orderEntry type="library" name="SBT: com.fasterxml.jackson.core:jackson-databind:2.2.3:jar" level="project" />
+    <orderEntry type="library" name="SBT: edu.brown.cs.burlap:java_rosbridge:2.0.1:jar" level="project" />
+    <orderEntry type="library" name="SBT: javax.servlet:javax.servlet-api:3.1.0:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.eclipse.jetty:jetty-http:9.2.6.v20141205:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.eclipse.jetty:jetty-io:9.2.6.v20141205:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.eclipse.jetty:jetty-security:9.2.6.v20141205:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.eclipse.jetty:jetty-server:9.2.6.v20141205:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.eclipse.jetty:jetty-servlet:9.2.6.v20141205:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.eclipse.jetty:jetty-util:9.2.6.v20141205:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.eclipse.jetty.websocket:websocket-api:9.2.6.v20141205:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.eclipse.jetty.websocket:websocket-client:9.2.6.v20141205:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.eclipse.jetty.websocket:websocket-common:9.2.6.v20141205:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.eclipse.jetty.websocket:websocket-server:9.2.6.v20141205:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.eclipse.jetty.websocket:websocket-servlet:9.2.6.v20141205:jar" level="project" />
   </component>
 </module>

@@ -4,7 +4,7 @@ output mode:
 0 -> single
 output directories:
 1 items
-output dir -> /home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/target/scala-2.12/classes
+output dir -> /home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/target/scala-2.12/classes
 compile options:
 2 items
 0 -> -unchecked
@@ -21,23 +21,31 @@ name hashing:
 1 items
 0 -> true
 products:
-5 items
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> /home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/target/scala-2.12/classes/main$.class
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> /home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/target/scala-2.12/classes/main.class
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> /home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/target/scala-2.12/classes/org/dhash/util/canvas.class
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> /home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/target/scala-2.12/classes/org/dhash/util/opencv.class
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> /home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/target/scala-2.12/classes/org/dhash/util/tests.class
+8 items
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> /home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/target/scala-2.12/classes/ROSPubSub.class
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> /home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/target/scala-2.12/classes/main$.class
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> /home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/target/scala-2.12/classes/main.class
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> /home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/target/scala-2.12/classes/sign_localizer$process_image$.class
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> /home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/target/scala-2.12/classes/sign_localizer.class
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> /home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/target/scala-2.12/classes/org/dhash/util/canvas.class
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> /home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/target/scala-2.12/classes/org/dhash/util/opencv.class
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> /home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/target/scala-2.12/classes/org/dhash/util/tests.class
 binary dependencies:
-9 items
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> /home/dhash/.ivy2/cache/org.bytedeco.javacpp-presets/opencv/jars/opencv-3.1.0-1.3.jar
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> /home/dhash/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.1.jar
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> /home/dhash/.ivy2/cache/org.tinylog/tinylog/jars/tinylog-1.2.jar
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> /home/dhash/.ivy2/cache/org.bytedeco.javacpp-presets/opencv/jars/opencv-3.1.0-1.3.jar
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> /home/dhash/.ivy2/cache/org.bytedeco/javacv/jars/javacv-1.3.1.jar
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> /home/dhash/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.1.jar
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> /home/dhash/.ivy2/cache/org.tinylog/tinylog/jars/tinylog-1.2.jar
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+14 items
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> /home/dhash/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/jars/jackson-databind-2.2.3.jar
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> /home/dhash/.ivy2/cache/edu.brown.cs.burlap/java_rosbridge/jars/java_rosbridge-2.0.1.jar
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> /home/dhash/.ivy2/cache/edu.wpi.rail/jrosbridge/jars/jrosbridge-0.2.0.jar
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> /home/dhash/.ivy2/cache/org.bytedeco.javacpp-presets/opencv/jars/opencv-3.1.0-1.3.jar
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> /home/dhash/.ivy2/cache/org.bytedeco/javacpp/jars/javacpp-1.3.jar
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> /home/dhash/.ivy2/cache/org.bytedeco/javacv/jars/javacv-1.3.1.jar
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> /home/dhash/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.1.jar
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> /home/dhash/.ivy2/cache/org.tinylog/tinylog/jars/tinylog-1.2.jar
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> /home/dhash/.ivy2/cache/org.bytedeco.javacpp-presets/opencv/jars/opencv-3.1.0-1.3.jar
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> /home/dhash/.ivy2/cache/org.bytedeco/javacv/jars/javacv-1.3.1.jar
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> /home/dhash/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.1.jar
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> /home/dhash/.ivy2/cache/org.tinylog/tinylog/jars/tinylog-1.2.jar
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
 direct source dependencies:
 0 items
 direct external dependencies:
@@ -48,7 +56,7 @@ public inherited external dependencies:
 0 items
 member reference internal dependencies:
 1 items
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> /home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> /home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala
 member reference external dependencies:
 0 items
 inheritance internal dependencies:
@@ -56,183 +64,305 @@ inheritance internal dependencies:
 inheritance external dependencies:
 0 items
 class names:
-5 items
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> main
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> main$
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> org.dhash.util.canvas
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> org.dhash.util.opencv
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> org.dhash.util.tests
+8 items
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> ROSPubSub
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> main
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> main$
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> sign_localizer
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> sign_localizer$process_image$
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> org.dhash.util.canvas
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> org.dhash.util.opencv
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> org.dhash.util.tests
 used names:
-128 items
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> <init>
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> App
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> Array
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> ExecutionContext
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> File
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> Implicits
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> Logger
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> Object
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> Predef
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> SIFT
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> SIFT_test
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> String
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> Unit
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> WindowEvent
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> awt
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> bytedeco
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> canvas
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> close
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> concurrent
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> cvs
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> dhash
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> event
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> global
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> imshow_test
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> io
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> java
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> javacpp
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> main
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> opencv_core
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> opencv_features2d
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> opencv_imgcodecs
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> opencv_imgproc
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> opencv_xfeatures2d
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> org
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> pmw
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> run_tests
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> scala
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> tests
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> tinylog
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> trace
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> util
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> <init>
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> <repeated>
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> ?0
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> AWTEvent
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> Any
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> AnyRef
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> COLOR_BGR2GRAY
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> CanvasFrame
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> Class
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> Double
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> DrawMatchesFlags
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> File
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> Frame
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> Int
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> JFrame
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> KeyPointVector
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> Logger
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> Mat
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> Nothing
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> Object
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> OpenCVFrameConverter
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> Predef
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> SIFT
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> SIFT_keypoints
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> Scalar
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> String
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> StringContext
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> ToMat
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> URI
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> URL
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> Unit
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> Window
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> WindowEvent
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> all
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> awt
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> bytedeco
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> canvas
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> convert
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> converter
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> create
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> cv
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> cvs
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> cvs2
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> cvtColor
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> detect
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> dhash
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> dispatchEvent
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> drawKeypoints
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> event
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> getClass
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> getResource
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> gs_im
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> im
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> imFile
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> imName
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> img_with_feats
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> imopen
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> impath
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> imread
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> imshow
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> io
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> java
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> javacpp
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> javacv
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> javax
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> mat
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> opencv
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> opencv_core
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> opencv_features2d
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> opencv_imgcodecs
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> opencv_imgproc
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> opencv_xfeatures2d
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> org
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> pmw
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> respath
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> s
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> scala
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> setDefaultCloseOperation
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> showImage
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> swing
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> tests
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> tinylog
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> title
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> toString
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> toURI
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> trace
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> util
+236 items
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> <init>
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> ?0
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> A1
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> Any
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> AnyRef
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> App
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> Array
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> ArrayOps
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> B
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> Boolean
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> Byte
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> BytePointer
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> CanBuildFrom
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> CanvasFrame
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> Class
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> ClassTag
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> ExecutionContext
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> File
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> Function1
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> GenIterable
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> Image
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> ImageIcon
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> Implicits
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> Int
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> JLabel
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> JPanel
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> JsonNode
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> KeyPointVector
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> Logger
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> Long
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> Mat
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> Message
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> MessageUnpacker
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> Nothing
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> Object
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> ObjectMapper
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> Predef
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> ROSPubSub
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> Ros
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> SIFT
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> SIFT_features
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> SIFT_test
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> String
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> StringOps
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> T
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> That
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> Thread
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> Topic
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> TopicCallback
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> Tuple2
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> URI
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> URL
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> Unit
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> WindowEvent
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> WrappedArray
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> _$4
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> _$7
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> apply
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> augmentString
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> awt
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> bytedeco
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> callback
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> canBuildFrom
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> canvas
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> com
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> concurrent
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> conn
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> connect
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> cv
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> cvs
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> data
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> databind
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> dhash
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> edu
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> event
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> f
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> fasterxml
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> fdir
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> getClass
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> getName
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> getResource
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> global
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> height
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> im
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> im_msg
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> image_sub
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> imdir
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> imread
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> imshow
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> imshow_test
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> io
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> isConnected
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> jackson
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> java
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> javacpp
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> javax
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> jrosbridge
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> kps
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> lang
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> listFiles
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> main
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> map
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> mapper
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> materializeClassTag
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> messages
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> msg
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> msgs
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> names
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> ofRef
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> opencv
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> opencv_core
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> opencv_features2d
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> opencv_imgcodecs
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> opencv_imgproc
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> opencv_xfeatures2d
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> org
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> package
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> pmw
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> process_image
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> rail
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> readValue
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> refArrayOps
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> reflect
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> reshape
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> ros
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> scala
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> sensor_msgs
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> setMessageType
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> sign_localizer
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> sleep
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> stripMargin
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> subscribe
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> swing
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> tests
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> tinylog
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> toString
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> toURI
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> tools
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> trace
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> train
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> unpackRosMessage
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> unpacker
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> util
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> while$1
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> width
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> wpi
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> wrapRefArray
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> zip
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> <init>
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> <repeated>
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> ?0
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> AWTEvent
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> Any
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> AnyRef
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> COLOR_BGR2GRAY
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> CanvasFrame
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> Class
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> Double
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> DrawMatchesFlags
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> File
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> Frame
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> Int
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> JFrame
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> KeyPointVector
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> Logger
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> Mat
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> Nothing
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> Object
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> OpenCVFrameConverter
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> Predef
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> SIFT
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> SIFT_keypoints
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> Scalar
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> String
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> StringContext
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> ToMat
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> URI
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> URL
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> Unit
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> Window
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> WindowEvent
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> all
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> awt
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> bytedeco
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> canvas
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> convert
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> converter
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> create
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> cv
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> cvs
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> cvs2
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> cvtColor
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> detect
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> dhash
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> dispatchEvent
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> drawKeypoints
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> event
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> getClass
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> getResource
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> gs_im
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> im
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> imFile
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> imName
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> img_with_feats
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> imopen
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> impath
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> imread
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> imshow
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> io
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> java
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> javacpp
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> javacv
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> javax
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> mat
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> opencv
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> opencv_core
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> opencv_features2d
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> opencv_imgcodecs
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> opencv_imgproc
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> opencv_xfeatures2d
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> org
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> pmw
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> pts
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> respath
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> s
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> scala
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> setDefaultCloseOperation
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> showImage
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> swing
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> tests
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> tinylog
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> title
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> toString
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> toURI
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> trace
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> util
 product stamps:
-5 items
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/target/scala-2.12/classes/main$.class -> lastModified(1489457417000)
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/target/scala-2.12/classes/main.class -> lastModified(1489457417000)
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/target/scala-2.12/classes/org/dhash/util/canvas.class -> lastModified(1489457417000)
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/target/scala-2.12/classes/org/dhash/util/opencv.class -> lastModified(1489457417000)
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/target/scala-2.12/classes/org/dhash/util/tests.class -> lastModified(1489457417000)
+8 items
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/target/scala-2.12/classes/ROSPubSub.class -> lastModified(1489574755000)
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/target/scala-2.12/classes/main$.class -> lastModified(1489574755000)
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/target/scala-2.12/classes/main.class -> lastModified(1489574755000)
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/target/scala-2.12/classes/org/dhash/util/canvas.class -> lastModified(1489573428000)
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/target/scala-2.12/classes/org/dhash/util/opencv.class -> lastModified(1489573428000)
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/target/scala-2.12/classes/org/dhash/util/tests.class -> lastModified(1489573428000)
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/target/scala-2.12/classes/sign_localizer$process_image$.class -> lastModified(1489574755000)
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/target/scala-2.12/classes/sign_localizer.class -> lastModified(1489574755000)
 source stamps:
 2 items
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> hash(9304ff04a1b67ad389a22c8a894dcaca0d6036cd)
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> hash(907a4ead74f4555fbdda68f241c97fcddb0b9c4f)
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> hash(366ac451c22b2497307dd0173e8a7b89890191fc)
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> hash(e9c1be62e57663663745da0041c615b872b7b7d4)
 binary stamps:
-5 items
+9 items
+/home/dhash/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/jars/jackson-databind-2.2.3.jar -> lastModified(1377230402000)
+/home/dhash/.ivy2/cache/edu.brown.cs.burlap/java_rosbridge/jars/java_rosbridge-2.0.1.jar -> lastModified(1459350813000)
+/home/dhash/.ivy2/cache/edu.wpi.rail/jrosbridge/jars/jrosbridge-0.2.0.jar -> lastModified(1417107343000)
 /home/dhash/.ivy2/cache/org.bytedeco.javacpp-presets/opencv/jars/opencv-3.1.0-1.3.jar -> lastModified(1481113648000)
+/home/dhash/.ivy2/cache/org.bytedeco/javacpp/jars/javacpp-1.3.jar -> lastModified(1481081622000)
 /home/dhash/.ivy2/cache/org.bytedeco/javacv/jars/javacv-1.3.1.jar -> lastModified(1484365611000)
 /home/dhash/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.1.jar -> lastModified(1480936165000)
 /home/dhash/.ivy2/cache/org.tinylog/tinylog/jars/tinylog-1.2.jar -> lastModified(1488008609000)
-/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar -> lastModified(1486535053000)
+/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar -> lastModified(1485187082000)
 class names:
-5 items
-/home/dhash/.ivy2/cache/org.bytedeco.javacpp-presets/opencv/jars/opencv-3.1.0-1.3.jar -> org.bytedeco.javacpp.opencv_xfeatures2d
-/home/dhash/.ivy2/cache/org.bytedeco/javacv/jars/javacv-1.3.1.jar -> org.bytedeco.javacv.Frame
-/home/dhash/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.1.jar -> scala.StringContext$
+9 items
+/home/dhash/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/jars/jackson-databind-2.2.3.jar -> com.fasterxml.jackson.databind.ObjectMapper
+/home/dhash/.ivy2/cache/edu.brown.cs.burlap/java_rosbridge/jars/java_rosbridge-2.0.1.jar -> ros.tools.MessageUnpacker
+/home/dhash/.ivy2/cache/edu.wpi.rail/jrosbridge/jars/jrosbridge-0.2.0.jar -> edu.wpi.rail.jrosbridge.callback.TopicCallback
+/home/dhash/.ivy2/cache/org.bytedeco.javacpp-presets/opencv/jars/opencv-3.1.0-1.3.jar -> org.bytedeco.javacpp.opencv_core
+/home/dhash/.ivy2/cache/org.bytedeco/javacpp/jars/javacpp-1.3.jar -> org.bytedeco.javacpp.BytePointer
+/home/dhash/.ivy2/cache/org.bytedeco/javacv/jars/javacv-1.3.1.jar -> org.bytedeco.javacv.CanvasFrame
+/home/dhash/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.1.jar -> scala.App
 /home/dhash/.ivy2/cache/org.tinylog/tinylog/jars/tinylog-1.2.jar -> org.pmw.tinylog.Logger
 /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar -> java.lang.Object
 internal apis:
 2 items
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwbgYmwgAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAZc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdgKAX3QABm5vdGlmeXNxAH4ADMhJp2t0AAR3YWl0c3EAfgAMV0bCV3QADSRhc0luc3RhbmNlT2ZzcQB+AAz1CEW2dAAGZXF1YWxzc3EAfgAM8RGfJnQADGFzSW5zdGFuY2VPZnNxAH4ADLOTk+10AA5leGVjdXRpb25TdGFydHNxAH4ADAAQBvZ0AAxzeW5jaHJvbml6ZWRzcQB+AAxvpJrcdAANJGlzSW5zdGFuY2VPZnNxAH4ADCRCpuB0AARtYWluc3EAfgAMruDrBnQACW5vdGlmeUFsbHNxAH4ADIGB5610AAxpc0luc3RhbmNlT2ZzcQB+AAxLrACmdAACPT1zcQB+AAyiMG3KdAAFY2xvbmVzcQB+AAx9cgpPdAAGJGluaXQkc3EAfgAMnS3xb3QACHRvU3RyaW5nc3EAfgAMnHjE/3QABGFyZ3NzcQB+AAzV2jLhdAACIT1zcQB+AAysMPOHdAAIZ2V0Q2xhc3NzcQB+AAyLBJkFdAACbmVzcQB+AAzPgEaUdAACZXFzcQB+AAwGnryodAALZGVsYXllZEluaXRzcQB+AAwHSFgqdAACIyNzcQB+AAwm6SOIdAAIZmluYWxpemVzcQB+AAzCqlExdAAIaGFzaENvZGVzcQB+AAxrxYhadAAJcnVuX3Rlc3Rzc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4ASXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHEAfgAfdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAXQAEHNjYWxhLmRlcHJlY2F0ZWRzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AYXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBJTAAJaW5oZXJpdGVkcQB+AElMAAdwYXJlbnRzcQB+AEl4cQB+AGZzcQB+AGF1cQB+AEQAAAABc3IADXhzYnRpLmFwaS5EZWZSvp/ifLQ2aQIAAkwACnJldHVyblR5cGV0ABBMeHNidGkvYXBpL1R5cGU7WwAPdmFsdWVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvUGFyYW1ldGVyTGlzdDt4cQB+AEpxAH4AU3VxAH4AVAAAAABzcQB+AFYCdAAEbWFpbnVxAH4AWAAAAABzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBldAAEVW5pdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AZXNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFc2NhbGFzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AgnVyABpbTHhzYnRpLmFwaS5QYXJhbWV0ZXJMaXN0O/XTOh3ys3DuAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJMaXN01sW8HGRJdOMCAAJaAAppc0ltcGxpY2l0WwAKcGFyYW1ldGVyc3QAHFtMeHNidGkvYXBpL01ldGhvZFBhcmFtZXRlcjt4cAB1cgAcW0x4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyO8+4xV2l3bVtAgAAeHAAAAABc3IAGXhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXIfRa4X00mw6gIABFoACmhhc0RlZmF1bHRMAAhtb2RpZmllcnQAHUx4c2J0aS9hcGkvUGFyYW1ldGVyTW9kaWZpZXI7TAAEbmFtZXEAfgANTAADdHBlcQB+AG54cAB+cgAbeHNidGkuYXBpLlBhcmFtZXRlck1vZGlmaWVyAAAAAAAAAAASAAB4cQB+AFt0AAVQbGFpbnEAfgAtc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgB2WwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgBlc3EAfgB1dAAFQXJyYXlxAH4Ae3VyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAABc3EAfgB1dAAGU3RyaW5nc3EAfgB5c3EAfgB8dXEAfgB/AAAAA3NxAH4AgXQABGphdmFzcQB+AIF0AARsYW5ncQB+AIZzcQB+AGF1cQB+AEQAAAAAc3EAfgBhdXEAfgCZAAAABHNxAH4AdXQAA0FwcHEAfgB7c3EAfgB1dAALRGVsYXllZEluaXRxAH4Ae3NxAH4AdXQABk9iamVjdHEAfgCdc3EAfgB1dAADQW55cQB+AHt1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWsqUfjx1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABYL2hvbWUvZGhhc2gvU2Nob29sL0NvbXBSb2JvIFMxNy9zY2FsYV9jb21wX3JvYm9fc2lnbl9kZXRlY3Rpb24vdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFJME/wShtnrTiaIsiolNysoNYDbN
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwUA0Y9gAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAec3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hw7wlol3QABm5vdGlmeXNxAH4ADI+rxIx0ABVpbXNob3dfdGVzdCRkZWZhdWx0JDFzcQB+AAxYlyS5dAAEd2FpdHNxAH4ADA6lCHV0AA0kYXNJbnN0YW5jZU9mc3EAfgAMX+jcnnQAC2ltc2hvd190ZXN0c3EAfgAMcNOPHXQABmVxdWFsc3NxAH4ADOvo23t0AAxhc0luc3RhbmNlT2ZzcQB+AAxu/soldAAMc3luY2hyb25pemVkc3EAfgAMliXv53QABXRlc3Rzc3EAfgAM23doTHQABm9wZW5jdnNxAH4ADDKkGQl0AA0kaXNJbnN0YW5jZU9mc3EAfgAMG6hpe3QAEGltc2hvdyRkZWZhdWx0JDFzcQB+AAzE99J7dAAJU0lGVF90ZXN0c3EAfgAMoe766XQACW5vdGlmeUFsbHNxAH4ADF7XMMl0AAxpc0luc3RhbmNlT2ZzcQB+AAyyRYuAdAAGPGluaXQ+c3EAfgAMZDcgzXQAAj09c3EAfgAMXNrafHQABWNsb25lc3EAfgAMBcoCmnQABmltc2hvd3NxAH4ADJufgR90AAh0b1N0cmluZ3NxAH4ADJ6pXd10AAIhPXNxAH4ADEOpw5F0AAhnZXRDbGFzc3NxAH4ADCbG2uR0AAVjbG9zZXNxAH4ADGuDrvZ0AAZpbW9wZW5zcQB+AAyGo6R6dAACbmVzcQB+AAyc17e0dAACZXFzcQB+AAwANWutdAAGY2FudmFzc3EAfgAMM8RoAXQAAiMjc3EAfgAMOVjeqXQACGZpbmFsaXplc3EAfgAM2lqM13QACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAA3NyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AU3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHQAFW9yZy5kaGFzaC51dGlsLm9wZW5jdnVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBrc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AFNMAAlpbmhlcml0ZWRxAH4AU0wAB3BhcmVudHNxAH4AU3hxAH4AcHNxAH4Aa3VxAH4ATgAAAABzcQB+AGt1cQB+AE4AAAAAc3EAfgBrdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBvdAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBvc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgCIdAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCJc3EAfgB8dAADQW55c3EAfgCAc3EAfgCDdXEAfgCGAAAAAnNxAH4AiHQABXNjYWxhcQB+AI9zcQB+AFBxAH4AXXVxAH4AXgAAAABzcQB+AGAAdAAVb3JnLmRoYXNoLnV0aWwuY2FudmFzdXEAfgBjAAAAAHEAfgBndXEAfgBpAAAAAHNxAH4Aa3EAfgBxc3EAfgBrc3EAfgBzc3EAfgBrdXEAfgBOAAAAAHNxAH4Aa3VxAH4ATgAAAABzcQB+AGt1cQB+AHoAAAACc3EAfgB8cQB+AH9zcQB+AIBzcQB+AIN1cQB+AIYAAAADc3EAfgCIcQB+AItzcQB+AIhxAH4AjXEAfgCPc3EAfgB8cQB+AJFzcQB+AIBzcQB+AIN1cQB+AIYAAAACc3EAfgCIcQB+AJZxAH4Aj3NxAH4AUHEAfgBddXEAfgBeAAAAAHNxAH4AYAB0ABRvcmcuZGhhc2gudXRpbC50ZXN0c3VxAH4AYwAAAABxAH4AZ3VxAH4AaQAAAABzcQB+AGtxAH4AcXNxAH4Aa3NxAH4Ac3NxAH4Aa3VxAH4ATgAAAABzcQB+AGt1cQB+AE4AAAAAc3EAfgBrdXEAfgB6AAAAAnNxAH4AfHEAfgB/c3EAfgCAc3EAfgCDdXEAfgCGAAAAA3NxAH4AiHEAfgCLc3EAfgCIcQB+AI1xAH4Aj3NxAH4AfHEAfgCRc3EAfgCAc3EAfgCDdXEAfgCGAAAAAnNxAH4AiHEAfgCWcQB+AI91cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAA3NyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AA5vcmcuZGhhc2gudXRpbHNxAH4AzXQACW9yZy5kaGFzaHNxAH4AzXQAA29yZ3NyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWsqUfjx1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABYL2hvbWUvZGhhc2gvU2Nob29sL0NvbXBSb2JvIFMxNy9zY2FsYV9jb21wX3JvYm9fc2lnbl9kZXRlY3Rpb24vdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFJB6Tq109FVfvdpo8kHJf83bC5xP
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwvK0RZgAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAANzcgAgeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2hbDvUidjhXzwIAAkkABGhhc2hMAARuYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHBtOdhrdAACY3ZzcQB+AAuT6gtvdAAGbWFwcGVyc3EAfgALTwcejnQAA2N2c3VxAH4ACQAAACBzcQB+AAsYM0rHdAAGbm90aWZ5c3EAfgALX5Z8lnQABGNvbm5zcQB+AAs4kz/TdAAEd2FpdHNxAH4ACwwVIqZ0AA0kYXNJbnN0YW5jZU9mc3EAfgALsazNq3QABmVxdWFsc3NxAH4ACwFqQkR0AAlST1NQdWJTdWJzcQB+AAuUKuXGdAAMYXNJbnN0YW5jZU9mc3EAfgALs5OT7XQADmV4ZWN1dGlvblN0YXJ0c3EAfgALy1s5O3QADHN5bmNocm9uaXplZHNxAH4AC9hXPHB0AA0kaXNJbnN0YW5jZU9mc3EAfgALJEKm4HQABG1haW5zcQB+AAsgeYT3dAAJbm90aWZ5QWxsc3EAfgALdmWR6XQADGlzSW5zdGFuY2VPZnNxAH4ACwhZpJ90AAY8aW5pdD5zcQB+AAsAdbjndAACPT1zcQB+AAs5CGkhdAANcHJvY2Vzc19pbWFnZXNxAH4AC6pZK2R0AA5zaWduX2xvY2FsaXplcnNxAH4ACzYUAHV0AAVjbG9uZXNxAH4AC31yCk90AAYkaW5pdCRzcQB+AAtIjSqbdAAIdG9TdHJpbmdzcQB+AAuceMT/dAAEYXJnc3NxAH4AC7tOmIZ0AAIhPXNxAH4AC65/cUd0AAV0cmFpbnNxAH4AC1nzwtR0AAhnZXRDbGFzc3NxAH4AC8nn7UV0AA1oYW5kbGVNZXNzYWdlc3EAfgALGk9pNnQAAm5lc3EAfgALds+R6HQAAmVxc3EAfgALBp68qHQAC2RlbGF5ZWRJbml0c3EAfgALxcm813QAAiMjc3EAfgALTBlptnQACGZpbmFsaXplc3EAfgALal5mUXQACGhhc2hDb2Rlc3EAfgALa8WIWnQACXJ1bl90ZXN0c3NyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAANzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AF14cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgAMeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cABxAH4AKXVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAAF0ABBzY2FsYS5kZXByZWNhdGVkc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AHVzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AXUwACWluaGVyaXRlZHEAfgBdTAAHcGFyZW50c3EAfgBdeHEAfgB6c3EAfgB1dXEAfgBYAAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgBecQB+AGd1cQB+AGgAAAAAc3EAfgBqAnQABG1haW51cQB+AGwAAAAAc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgAMTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AeXQABFVuaXRzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AHlzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgAMeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AJZ1cgAaW0x4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdDv10zod8rNw7gIAAHhwAAAAAXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdNbFvBxkSXTjAgACWgAKaXNJbXBsaWNpdFsACnBhcmFtZXRlcnN0ABxbTHhzYnRpL2FwaS9NZXRob2RQYXJhbWV0ZXI7eHAAdXIAHFtMeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlcjvPuMVdpd21bQIAAHhwAAAAAXNyABl4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyH0WuF9NJsOoCAARaAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1MeHNidGkvYXBpL1BhcmFtZXRlck1vZGlmaWVyO0wABG5hbWVxAH4ADEwAA3RwZXEAfgCCeHAAfnIAG3hzYnRpLmFwaS5QYXJhbWV0ZXJNb2RpZmllcgAAAAAAAAAAEgAAeHEAfgBvdAAFUGxhaW5xAH4APXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGVxAH4AilsADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4AeXNxAH4AiXQABUFycmF5cQB+AI91cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAXNxAH4AiXQABlN0cmluZ3NxAH4AjXNxAH4AkHVxAH4AkwAAAANzcQB+AJV0AARqYXZhc3EAfgCVdAAEbGFuZ3EAfgCac3EAfgB1dXEAfgBYAAAAAHNxAH4AdXVxAH4ArQAAAARzcQB+AIl0AANBcHBxAH4Aj3NxAH4AiXQAC0RlbGF5ZWRJbml0cQB+AI9zcQB+AIl0AAZPYmplY3RxAH4AsXNxAH4AiXQAA0FueXEAfgCPc3EAfgBacQB+AGd1cQB+AGgAAAAAc3EAfgBqAHEAfgAfdXEAfgBsAAAAAH5xAH4AbnQACENsYXNzRGVmdXEAfgByAAAAAHNxAH4AdXEAfgB7c3EAfgB1c3EAfgB9c3EAfgB1dXEAfgBYAAAAAHNxAH4AdXVxAH4AWAAAAABzcQB+AHV1cQB+AK0AAAACc3EAfgCJcQB+AMFzcQB+AI1zcQB+AJB1cQB+AJMAAAADc3EAfgCVcQB+ALVzcQB+AJVxAH4At3EAfgCac3EAfgCJcQB+AMNzcQB+AI1zcQB+AJB1cQB+AJMAAAACc3EAfgCVcQB+AJhxAH4AmnNxAH4AWnEAfgBndXEAfgBoAAAAAHNxAH4AagBxAH4ANXVxAH4AbAAAAABxAH4AyHVxAH4AcgAAAABzcQB+AHVxAH4Ae3NxAH4AdXNxAH4AfXNxAH4AdXVxAH4AWAAAAABzcQB+AHV1cQB+AFgAAAAAc3EAfgB1dXEAfgCtAAAAAnNxAH4AiXEAfgDBc3EAfgCNc3EAfgCQdXEAfgCTAAAAA3NxAH4AlXEAfgC1c3EAfgCVcQB+ALdxAH4AmnNxAH4AiXEAfgDDc3EAfgCNc3EAfgCQdXEAfgCTAAAAAnNxAH4AlXEAfgCYcQB+AJp1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWtGSwHJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AAxMAA9zb3VyY2VEaXJlY3RvcnlxAH4ADHhwdABSL2hvbWUvZGhhc2gvY2F0a2luX3dzL3NyYy9zY2FsYV9jb21wX3JvYm9fc2lnbl9kZXRlY3Rpb24vdGFyZ2V0L3NjYWxhLTIuMTIvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFDZqxFHCKySXMH3QFz6Ke4mJAZH8
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwAHVVjAAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAfc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hw7wlol3QABm5vdGlmeXNxAH4ADI+rxIx0ABVpbXNob3dfdGVzdCRkZWZhdWx0JDFzcQB+AAxYlyS5dAAEd2FpdHNxAH4ADA6lCHV0AA0kYXNJbnN0YW5jZU9mc3EAfgAMX+jcnnQAC2ltc2hvd190ZXN0c3EAfgAMcNOPHXQABmVxdWFsc3NxAH4ADOvo23t0AAxhc0luc3RhbmNlT2ZzcQB+AAxu/soldAAMc3luY2hyb25pemVkc3EAfgAMliXv53QABXRlc3Rzc3EAfgAM23doTHQABm9wZW5jdnNxAH4ADDKkGQl0AA0kaXNJbnN0YW5jZU9mc3EAfgAMG6hpe3QAEGltc2hvdyRkZWZhdWx0JDFzcQB+AAzE99J7dAAJU0lGVF90ZXN0c3EAfgAMoe766XQACW5vdGlmeUFsbHNxAH4ADF7XMMl0AAxpc0luc3RhbmNlT2ZzcQB+AAyyRYuAdAAGPGluaXQ+c3EAfgAMZDcgzXQAAj09c3EAfgAMXNrafHQABWNsb25lc3EAfgAMBcoCmnQABmltc2hvd3NxAH4ADJufgR90AAh0b1N0cmluZ3NxAH4ADJ6pXd10AAIhPXNxAH4ADEOpw5F0AAhnZXRDbGFzc3NxAH4ADCbG2uR0AAVjbG9zZXNxAH4ADGuDrvZ0AAZpbW9wZW5zcQB+AAyGo6R6dAACbmVzcQB+AAyZkxF6dAANU0lGVF9mZWF0dXJlc3NxAH4ADJzXt7R0AAJlcXNxAH4ADAA1a610AAZjYW52YXNzcQB+AAwzxGgBdAACIyNzcQB+AAw5WN6pdAAIZmluYWxpemVzcQB+AAzaWozXdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAADc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBVeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAdAAVb3JnLmRoYXNoLnV0aWwub3BlbmN2dXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AG1zcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AVUwACWluaGVyaXRlZHEAfgBVTAAHcGFyZW50c3EAfgBVeHEAfgByc3EAfgBtdXEAfgBQAAAAAHNxAH4AbXVxAH4AUAAAAABzcQB+AG11cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AHF0AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AHFzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+AIp0AARsYW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AItzcQB+AH50AANBbnlzcQB+AIJzcQB+AIV1cQB+AIgAAAACc3EAfgCKdAAFc2NhbGFxAH4AkXNxAH4AUnEAfgBfdXEAfgBgAAAAAHNxAH4AYgB0ABVvcmcuZGhhc2gudXRpbC5jYW52YXN1cQB+AGUAAAAAcQB+AGl1cQB+AGsAAAAAc3EAfgBtcQB+AHNzcQB+AG1zcQB+AHVzcQB+AG11cQB+AFAAAAAAc3EAfgBtdXEAfgBQAAAAAHNxAH4AbXVxAH4AfAAAAAJzcQB+AH5xAH4AgXNxAH4AgnNxAH4AhXVxAH4AiAAAAANzcQB+AIpxAH4AjXNxAH4AinEAfgCPcQB+AJFzcQB+AH5xAH4Ak3NxAH4AgnNxAH4AhXVxAH4AiAAAAAJzcQB+AIpxAH4AmHEAfgCRc3EAfgBScQB+AF91cQB+AGAAAAAAc3EAfgBiAHQAFG9yZy5kaGFzaC51dGlsLnRlc3RzdXEAfgBlAAAAAHEAfgBpdXEAfgBrAAAAAHNxAH4AbXEAfgBzc3EAfgBtc3EAfgB1c3EAfgBtdXEAfgBQAAAAAHNxAH4AbXVxAH4AUAAAAABzcQB+AG11cQB+AHwAAAACc3EAfgB+cQB+AIFzcQB+AIJzcQB+AIV1cQB+AIgAAAADc3EAfgCKcQB+AI1zcQB+AIpxAH4Aj3EAfgCRc3EAfgB+cQB+AJNzcQB+AIJzcQB+AIV1cQB+AIgAAAACc3EAfgCKcQB+AJhxAH4AkXVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAADc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQADm9yZy5kaGFzaC51dGlsc3EAfgDPdAAJb3JnLmRoYXNoc3EAfgDPdAADb3Jnc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFa0X58t3VyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AFIvaG9tZS9kaGFzaC9jYXRraW5fd3Mvc3JjL3NjYWxhX2NvbXBfcm9ib19zaWduX2RldGVjdGlvbi90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAU6cG+YuV2Y2Y3RdoAQcYVuHK3t9Q=
 external apis:
 0 items
 source infos:
 2 items
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> 
-AAAAAQAAAQAAABIAMiAgb3ZlcnJpZGUgZGVmIG1haW4oYXJnczogQXJyYXlbU3RyaW5nXSk6IFVuaXQgPSB7AQAAAcUBAAAADwEADyAgICAgICAgICAgICAgIAEAXS9ob21lL2RoYXNoL1NjaG9vbC9Db21wUm9ibyBTMTcvc2NhbGFfY29tcF9yb2JvX3NpZ25fZGV0ZWN0aW9uL3NyYy9tYWluL3NjYWxhLTIuMTIvbWFpbi5zY2FsYQEAXS9ob21lL2RoYXNoL1NjaG9vbC9Db21wUm9ibyBTMTcvc2NhbGFfY29tcF9yb2JvX3NpZ25fZGV0ZWN0aW9uL3NyYy9tYWluL3NjYWxhLTIuMTIvbWFpbi5zY2FsYQBfb3ZlcnJpZGluZyBtZXRob2QgbWFpbiBpbiB0cmFpdCBBcHAgaXMgZGVwcmVjYXRlZCAoc2luY2UgMi4xMS4wKTogbWFpbiBzaG91bGQgbm90IGJlIG92ZXJyaWRkZW4BAAAAAA==
-/home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> 
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/main.scala -> 
+AAAAAQAAAQAAABkAMiAgb3ZlcnJpZGUgZGVmIG1haW4oYXJnczogQXJyYXlbU3RyaW5nXSk6IFVuaXQgPSB7AQAAAyQBAAAADwEADyAgICAgICAgICAgICAgIAEAVy9ob21lL2RoYXNoL2NhdGtpbl93cy9zcmMvc2NhbGFfY29tcF9yb2JvX3NpZ25fZGV0ZWN0aW9uL3NyYy9tYWluL3NjYWxhLTIuMTIvbWFpbi5zY2FsYQEAVy9ob21lL2RoYXNoL2NhdGtpbl93cy9zcmMvc2NhbGFfY29tcF9yb2JvX3NpZ25fZGV0ZWN0aW9uL3NyYy9tYWluL3NjYWxhLTIuMTIvbWFpbi5zY2FsYQBfb3ZlcnJpZGluZyBtZXRob2QgbWFpbiBpbiB0cmFpdCBBcHAgaXMgZGVwcmVjYXRlZCAoc2luY2UgMi4xMS4wKTogbWFpbiBzaG91bGQgbm90IGJlIG92ZXJyaWRkZW4BAAAAAA==
+/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/src/main/scala-2.12/util.scala -> 
 AAAAAAAAAAA=
 compilations:
-60 items
+91 items
 00 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWsBPxph1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQC9ob21lL2RoYXNoL0lkZWFQcm9qZWN0cy9jdi10ZXN0LWRyaXZlL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv
 01 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWsBQNlV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQC9ob21lL2RoYXNoL0lkZWFQcm9qZWN0cy9jdi10ZXN0LWRyaXZlL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv
 02 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWsBRQ2l1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQC9ob21lL2RoYXNoL0lkZWFQcm9qZWN0cy9jdi10ZXN0LWRyaXZlL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv
@@ -293,3 +423,34 @@ compilations:
 57 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWsoa19d1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAWC9ob21lL2RoYXNoL1NjaG9vbC9Db21wUm9ibyBTMTcvc2NhbGFfY29tcF9yb2JvX3NpZ25fZGV0ZWN0aW9uL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv
 58 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWsocQWR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAWC9ob21lL2RoYXNoL1NjaG9vbC9Db21wUm9ibyBTMTcvc2NhbGFfY29tcF9yb2JvX3NpZ25fZGV0ZWN0aW9uL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv
 59 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWsqUfjx1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAWC9ob21lL2RoYXNoL1NjaG9vbC9Db21wUm9ibyBTMTcvc2NhbGFfY29tcF9yb2JvX3NpZ25fZGV0ZWN0aW9uL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv
+60 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWs/Meyd1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUi9ob21lL2RoYXNoL2NhdGtpbl93cy9zcmMvc2NhbGFfY29tcF9yb2JvX3NpZ25fZGV0ZWN0aW9uL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv
+61 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWs/SyuV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUi9ob21lL2RoYXNoL2NhdGtpbl93cy9zcmMvc2NhbGFfY29tcF9yb2JvX3NpZ25fZGV0ZWN0aW9uL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv
+62 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWs/TzUZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUi9ob21lL2RoYXNoL2NhdGtpbl93cy9zcmMvc2NhbGFfY29tcF9yb2JvX3NpZ25fZGV0ZWN0aW9uL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv
+63 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWs/VoWV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUi9ob21lL2RoYXNoL2NhdGtpbl93cy9zcmMvc2NhbGFfY29tcF9yb2JvX3NpZ25fZGV0ZWN0aW9uL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv
+64 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWs/WYWF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUi9ob21lL2RoYXNoL2NhdGtpbl93cy9zcmMvc2NhbGFfY29tcF9yb2JvX3NpZ25fZGV0ZWN0aW9uL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv
+65 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWs/anwJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUi9ob21lL2RoYXNoL2NhdGtpbl93cy9zcmMvc2NhbGFfY29tcF9yb2JvX3NpZ25fZGV0ZWN0aW9uL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv
+66 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWs/qG9N1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUi9ob21lL2RoYXNoL2NhdGtpbl93cy9zcmMvc2NhbGFfY29tcF9yb2JvX3NpZ25fZGV0ZWN0aW9uL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv
+67 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWs/q7Z11cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUi9ob21lL2RoYXNoL2NhdGtpbl93cy9zcmMvc2NhbGFfY29tcF9yb2JvX3NpZ25fZGV0ZWN0aW9uL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv
+68 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWs/sgfx1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUi9ob21lL2RoYXNoL2NhdGtpbl93cy9zcmMvc2NhbGFfY29tcF9yb2JvX3NpZ25fZGV0ZWN0aW9uL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv
+69 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWs/tXeN1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUi9ob21lL2RoYXNoL2NhdGtpbl93cy9zcmMvc2NhbGFfY29tcF9yb2JvX3NpZ25fZGV0ZWN0aW9uL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv
+70 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWs/+uJF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUi9ob21lL2RoYXNoL2NhdGtpbl93cy9zcmMvc2NhbGFfY29tcF9yb2JvX3NpZ25fZGV0ZWN0aW9uL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv
+71 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWtAUG2p1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUi9ob21lL2RoYXNoL2NhdGtpbl93cy9zcmMvc2NhbGFfY29tcF9yb2JvX3NpZ25fZGV0ZWN0aW9uL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv
+72 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWtC4hDN1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUi9ob21lL2RoYXNoL2NhdGtpbl93cy9zcmMvc2NhbGFfY29tcF9yb2JvX3NpZ25fZGV0ZWN0aW9uL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv
+73 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWtC6tdJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUi9ob21lL2RoYXNoL2NhdGtpbl93cy9zcmMvc2NhbGFfY29tcF9yb2JvX3NpZ25fZGV0ZWN0aW9uL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv
+74 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWtC+PRt1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUi9ob21lL2RoYXNoL2NhdGtpbl93cy9zcmMvc2NhbGFfY29tcF9yb2JvX3NpZ25fZGV0ZWN0aW9uL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv
+75 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWtDEWsZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUi9ob21lL2RoYXNoL2NhdGtpbl93cy9zcmMvc2NhbGFfY29tcF9yb2JvX3NpZ25fZGV0ZWN0aW9uL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv
+76 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWtDKIK51cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUi9ob21lL2RoYXNoL2NhdGtpbl93cy9zcmMvc2NhbGFfY29tcF9yb2JvX3NpZ25fZGV0ZWN0aW9uL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv
+77 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWtDLeLB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUi9ob21lL2RoYXNoL2NhdGtpbl93cy9zcmMvc2NhbGFfY29tcF9yb2JvX3NpZ25fZGV0ZWN0aW9uL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv
+78 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWtDjgbF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUi9ob21lL2RoYXNoL2NhdGtpbl93cy9zcmMvc2NhbGFfY29tcF9yb2JvX3NpZ25fZGV0ZWN0aW9uL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv
+79 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWtDqjOZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUi9ob21lL2RoYXNoL2NhdGtpbl93cy9zcmMvc2NhbGFfY29tcF9yb2JvX3NpZ25fZGV0ZWN0aW9uL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv
+80 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWtD4mjB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUi9ob21lL2RoYXNoL2NhdGtpbl93cy9zcmMvc2NhbGFfY29tcF9yb2JvX3NpZ25fZGV0ZWN0aW9uL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv
+81 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWtFS1Sl1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUi9ob21lL2RoYXNoL2NhdGtpbl93cy9zcmMvc2NhbGFfY29tcF9yb2JvX3NpZ25fZGV0ZWN0aW9uL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv
+82 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWtFWDWB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUi9ob21lL2RoYXNoL2NhdGtpbl93cy9zcmMvc2NhbGFfY29tcF9yb2JvX3NpZ25fZGV0ZWN0aW9uL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv
+83 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWtFrAl11cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUi9ob21lL2RoYXNoL2NhdGtpbl93cy9zcmMvc2NhbGFfY29tcF9yb2JvX3NpZ25fZGV0ZWN0aW9uL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv
+84 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWtFu4YR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUi9ob21lL2RoYXNoL2NhdGtpbl93cy9zcmMvc2NhbGFfY29tcF9yb2JvX3NpZ25fZGV0ZWN0aW9uL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv
+85 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWtF+fLd1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUi9ob21lL2RoYXNoL2NhdGtpbl93cy9zcmMvc2NhbGFfY29tcF9yb2JvX3NpZ25fZGV0ZWN0aW9uL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv
+86 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWtGAx451cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUi9ob21lL2RoYXNoL2NhdGtpbl93cy9zcmMvc2NhbGFfY29tcF9yb2JvX3NpZ25fZGV0ZWN0aW9uL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv
+87 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWtGFaJp1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUi9ob21lL2RoYXNoL2NhdGtpbl93cy9zcmMvc2NhbGFfY29tcF9yb2JvX3NpZ25fZGV0ZWN0aW9uL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv
+88 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWtGJ9zB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUi9ob21lL2RoYXNoL2NhdGtpbl93cy9zcmMvc2NhbGFfY29tcF9yb2JvX3NpZ25fZGV0ZWN0aW9uL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv
+89 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWtGPjY51cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUi9ob21lL2RoYXNoL2NhdGtpbl93cy9zcmMvc2NhbGFfY29tcF9yb2JvX3NpZ25fZGV0ZWN0aW9uL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv
+90 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWtGSwHJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUi9ob21lL2RoYXNoL2NhdGtpbl93cy9zcmMvc2NhbGFfY29tcF9yb2JvX3NpZ25fZGV0ZWN0aW9uL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv

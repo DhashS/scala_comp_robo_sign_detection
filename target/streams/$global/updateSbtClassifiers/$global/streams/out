@@ -1775,9 +1775,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.13!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#template-resolver;0.1!template-resolver.jar
-[debug] :: resolution report :: resolve 861ms :: artifacts dl 17ms
-[debug] 	report for cv-test-drive#cv-test-drive$sbt_2.10;1.0 default produced in /home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/target/resolution-cache/reports/cv-test-drive-cv-test-drive$sbt_2.10-default.xml
-[debug] 	resolve done (861ms resolve - 17ms download)
+[debug] :: resolution report :: resolve 2764ms :: artifacts dl 33ms
+[debug] 	report for cv-test-drive#cv-test-drive$sbt_2.10;1.0 default produced in /home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/target/resolution-cache/reports/cv-test-drive-cv-test-drive$sbt_2.10-default.xml
+[debug] 	resolve done (2764ms resolve - 33ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: cv-test-drive#cv-test-drive$sources_2.10;1.0
 [debug] 	confs: [default]
@@ -2471,6 +2471,6 @@
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.6!scala-compiler.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#interface;0.13.13!interface.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#logging;0.13.13!logging.jar(src)
-[debug] :: resolution report :: resolve 135ms :: artifacts dl 23ms
-[debug] 	report for cv-test-drive#cv-test-drive$sources_2.10;1.0 default produced in /home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/target/resolution-cache/reports/cv-test-drive-cv-test-drive$sources_2.10-default.xml
-[debug] 	resolve done (135ms resolve - 23ms download)
+[debug] :: resolution report :: resolve 677ms :: artifacts dl 96ms
+[debug] 	report for cv-test-drive#cv-test-drive$sources_2.10;1.0 default produced in /home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/target/resolution-cache/reports/cv-test-drive-cv-test-drive$sources_2.10-default.xml
+[debug] 	resolve done (677ms resolve - 96ms download)

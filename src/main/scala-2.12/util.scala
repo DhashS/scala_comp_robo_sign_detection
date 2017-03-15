@@ -21,6 +21,11 @@ class opencv {
     val imName = imFile.toString
     imread(imName)
   }
+  def SIFT_features(im: Mat) : KeyPointVector = {
+    val pts = new KeyPointVector()
+    SIFT.create().detect(im, pts)
+    pts
+  }
 }
 class canvas(title: String) {
   var canvas = new CanvasFrame(title)
@@ -48,7 +53,7 @@ class tests {
   def SIFT_test(): Unit = {
     //show a gray scale image
     val cv = new opencv
-    var gs_im = new Mat
+    val gs_im = new Mat
     cvtColor(cv.imopen("/lena.bmp"), gs_im, COLOR_BGR2GRAY)
     val cvs = new canvas("Grayscale Lena")
     cvs.imshow(gs_im)

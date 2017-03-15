@@ -14,3 +14,7 @@ run -deprecation
 run
 run -deprecation
 run
+compile
+run
+compile
+run

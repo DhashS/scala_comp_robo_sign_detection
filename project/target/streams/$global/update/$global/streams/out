@@ -1,4 +1,4 @@
-[info] Updating {file:/home/dhash/School/CompRobo%20S17/scala_comp_robo_sign_detection/project/}scala_comp_robo_sign_detection-build...
+[info] Updating {file:/home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/project/}scala_comp_robo_sign_detection-build...
 [debug] :: resolving dependencies :: default#scala_comp_robo_sign_detection-build;0.1-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
@@ -6074,19 +6074,19 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#template-resolver;0.1!template-resolver.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.6!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 982ms :: artifacts dl 25ms
-[debug] 	report for default#scala_comp_robo_sign_detection-build;0.1-SNAPSHOT compile produced in /home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/project/target/resolution-cache/reports/default-scala_comp_robo_sign_detection-build-compile.xml
-[debug] 	report for default#scala_comp_robo_sign_detection-build;0.1-SNAPSHOT runtime produced in /home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/project/target/resolution-cache/reports/default-scala_comp_robo_sign_detection-build-runtime.xml
-[debug] 	report for default#scala_comp_robo_sign_detection-build;0.1-SNAPSHOT test produced in /home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/project/target/resolution-cache/reports/default-scala_comp_robo_sign_detection-build-test.xml
-[debug] 	report for default#scala_comp_robo_sign_detection-build;0.1-SNAPSHOT provided produced in /home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/project/target/resolution-cache/reports/default-scala_comp_robo_sign_detection-build-provided.xml
-[debug] 	report for default#scala_comp_robo_sign_detection-build;0.1-SNAPSHOT optional produced in /home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/project/target/resolution-cache/reports/default-scala_comp_robo_sign_detection-build-optional.xml
-[debug] 	report for default#scala_comp_robo_sign_detection-build;0.1-SNAPSHOT compile-internal produced in /home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/project/target/resolution-cache/reports/default-scala_comp_robo_sign_detection-build-compile-internal.xml
-[debug] 	report for default#scala_comp_robo_sign_detection-build;0.1-SNAPSHOT runtime-internal produced in /home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/project/target/resolution-cache/reports/default-scala_comp_robo_sign_detection-build-runtime-internal.xml
-[debug] 	report for default#scala_comp_robo_sign_detection-build;0.1-SNAPSHOT test-internal produced in /home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/project/target/resolution-cache/reports/default-scala_comp_robo_sign_detection-build-test-internal.xml
-[debug] 	report for default#scala_comp_robo_sign_detection-build;0.1-SNAPSHOT plugin produced in /home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/project/target/resolution-cache/reports/default-scala_comp_robo_sign_detection-build-plugin.xml
-[debug] 	report for default#scala_comp_robo_sign_detection-build;0.1-SNAPSHOT sources produced in /home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/project/target/resolution-cache/reports/default-scala_comp_robo_sign_detection-build-sources.xml
-[debug] 	report for default#scala_comp_robo_sign_detection-build;0.1-SNAPSHOT docs produced in /home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/project/target/resolution-cache/reports/default-scala_comp_robo_sign_detection-build-docs.xml
-[debug] 	report for default#scala_comp_robo_sign_detection-build;0.1-SNAPSHOT pom produced in /home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/project/target/resolution-cache/reports/default-scala_comp_robo_sign_detection-build-pom.xml
-[debug] 	report for default#scala_comp_robo_sign_detection-build;0.1-SNAPSHOT scala-tool produced in /home/dhash/School/CompRobo S17/scala_comp_robo_sign_detection/project/target/resolution-cache/reports/default-scala_comp_robo_sign_detection-build-scala-tool.xml
-[debug] 	resolve done (982ms resolve - 25ms download)
+[debug] :: resolution report :: resolve 4467ms :: artifacts dl 78ms
+[debug] 	report for default#scala_comp_robo_sign_detection-build;0.1-SNAPSHOT compile produced in /home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/project/target/resolution-cache/reports/default-scala_comp_robo_sign_detection-build-compile.xml
+[debug] 	report for default#scala_comp_robo_sign_detection-build;0.1-SNAPSHOT runtime produced in /home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/project/target/resolution-cache/reports/default-scala_comp_robo_sign_detection-build-runtime.xml
+[debug] 	report for default#scala_comp_robo_sign_detection-build;0.1-SNAPSHOT test produced in /home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/project/target/resolution-cache/reports/default-scala_comp_robo_sign_detection-build-test.xml
+[debug] 	report for default#scala_comp_robo_sign_detection-build;0.1-SNAPSHOT provided produced in /home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/project/target/resolution-cache/reports/default-scala_comp_robo_sign_detection-build-provided.xml
+[debug] 	report for default#scala_comp_robo_sign_detection-build;0.1-SNAPSHOT optional produced in /home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/project/target/resolution-cache/reports/default-scala_comp_robo_sign_detection-build-optional.xml
+[debug] 	report for default#scala_comp_robo_sign_detection-build;0.1-SNAPSHOT compile-internal produced in /home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/project/target/resolution-cache/reports/default-scala_comp_robo_sign_detection-build-compile-internal.xml
+[debug] 	report for default#scala_comp_robo_sign_detection-build;0.1-SNAPSHOT runtime-internal produced in /home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/project/target/resolution-cache/reports/default-scala_comp_robo_sign_detection-build-runtime-internal.xml
+[debug] 	report for default#scala_comp_robo_sign_detection-build;0.1-SNAPSHOT test-internal produced in /home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/project/target/resolution-cache/reports/default-scala_comp_robo_sign_detection-build-test-internal.xml
+[debug] 	report for default#scala_comp_robo_sign_detection-build;0.1-SNAPSHOT plugin produced in /home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/project/target/resolution-cache/reports/default-scala_comp_robo_sign_detection-build-plugin.xml
+[debug] 	report for default#scala_comp_robo_sign_detection-build;0.1-SNAPSHOT sources produced in /home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/project/target/resolution-cache/reports/default-scala_comp_robo_sign_detection-build-sources.xml
+[debug] 	report for default#scala_comp_robo_sign_detection-build;0.1-SNAPSHOT docs produced in /home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/project/target/resolution-cache/reports/default-scala_comp_robo_sign_detection-build-docs.xml
+[debug] 	report for default#scala_comp_robo_sign_detection-build;0.1-SNAPSHOT pom produced in /home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/project/target/resolution-cache/reports/default-scala_comp_robo_sign_detection-build-pom.xml
+[debug] 	report for default#scala_comp_robo_sign_detection-build;0.1-SNAPSHOT scala-tool produced in /home/dhash/catkin_ws/src/scala_comp_robo_sign_detection/project/target/resolution-cache/reports/default-scala_comp_robo_sign_detection-build-scala-tool.xml
+[debug] 	resolve done (4467ms resolve - 78ms download)
 [info] Done updating.

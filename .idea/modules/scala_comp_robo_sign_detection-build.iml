@@ -127,6 +127,5 @@
         </SOURCES>
       </library>
     </orderEntry>
-    <orderEntry type="library" name="rosjava_core" level="project" />
   </component>
 </module>
