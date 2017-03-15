@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="apache_xmlrpc_client_main" target="1.7" />
+      <module name="apache_xmlrpc_client_test" target="1.7" />
+      <module name="apache_xmlrpc_common_main" target="1.7" />
+      <module name="apache_xmlrpc_common_test" target="1.7" />
+      <module name="apache_xmlrpc_server_main" target="1.7" />
+      <module name="apache_xmlrpc_server_test" target="1.7" />
+      <module name="rosjava_benchmarks_main" target="1.7" />
+      <module name="rosjava_benchmarks_test" target="1.7" />
+      <module name="rosjava_geometry_main" target="1.7" />
+      <module name="rosjava_geometry_test" target="1.7" />
+      <module name="rosjava_helpers_main" target="1.7" />
+      <module name="rosjava_helpers_test" target="1.7" />
+      <module name="rosjava_main" target="1.7" />
+      <module name="rosjava_test" target="1.7" />
+      <module name="rosjava_test_main" target="1.7" />
+      <module name="rosjava_test_test" target="1.7" />
+      <module name="rosjava_tutorial_pubsub_main" target="1.7" />
+      <module name="rosjava_tutorial_pubsub_test" target="1.7" />
+      <module name="rosjava_tutorial_right_hand_rule_main" target="1.7" />
+      <module name="rosjava_tutorial_right_hand_rule_test" target="1.7" />
+      <module name="rosjava_tutorial_services_main" target="1.7" />
+      <module name="rosjava_tutorial_services_test" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

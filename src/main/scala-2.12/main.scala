@@ -14,6 +14,7 @@ import ExecutionContext.Implicits.global
 
 import org.dhash.util
 
+
 object main extends App {
   override def main(args: Array[String]): Unit = {
     run_tests()
@@ -36,7 +37,7 @@ object main extends App {
 
 class comprobo {
   def process_frame(): Unit = {
-    
+
   }
   /*
   def draw_box
