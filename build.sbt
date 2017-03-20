@@ -15,6 +15,6 @@ javaCppPresetLibs ++= Seq("opencv" -> "3.2.0",
 libraryDependencies ++= Seq(
   "org.tinylog" % "tinylog" % "1.2",
   "edu.wpi.rail" % "jrosbridge" % "0.2.0",
-  "org.bytedeco.javacpp-presets" % "cuda-platform" % "8.0-1.3",
+  "org.bytedeco" % "javacv-platform" % "1.3.2",
   "edu.brown.cs.burlap" % "java_rosbridge" % "2.0.1"
 )

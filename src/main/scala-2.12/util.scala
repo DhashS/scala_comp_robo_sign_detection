@@ -4,22 +4,13 @@ import java.awt.event.WindowEvent
 import java.io.File
 import javax.swing.JFrame
 
-import org.bytedeco.javacpp.opencv_core.{
-  KeyPointVector,
-  Mat,
-  Scalar,
-  DMatchVector,
-  Point2fVector,
-  KeyPoint,
-  _
-}
 import org.bytedeco.javacpp.indexer.FloatIndexer
+import org.bytedeco.javacpp.opencv_core.{DMatchVector, KeyPoint, KeyPointVector, Mat, Point2fVector, Scalar, _}
 import org.bytedeco.javacpp.opencv_features2d.{DrawMatchesFlags, drawKeypoints}
 import org.bytedeco.javacpp.opencv_imgcodecs.imread
 import org.bytedeco.javacpp.opencv_imgproc.{COLOR_BGR2GRAY, cvtColor}
 import org.bytedeco.javacpp.opencv_xfeatures2d.SIFT
 import org.bytedeco.javacv.{CanvasFrame, OpenCVFrameConverter}
-
 import org.pmw.tinylog.Logger
 
 class opencv {
@@ -28,19 +19,21 @@ class opencv {
     val imName = imFile.toString
     imread(imName)
   }
+
   def SIFT_features(im: Mat): (KeyPointVector, Mat) = {
     val pts = new KeyPointVector()
     val desc = new Mat
     SIFT.create().detectAndCompute(im, new Mat(), pts, desc)
     (pts, desc)
   }
+
   //These are essentially SerDes
   //lifted from https://github.com/bytedeco/javacv-examples/tree/master/OpenCV2_Cookbook
   //Chapter 10 and Utils
   def KeyPointsToP2V(
-      matches: DMatchVector,
-      keyPoints1: KeyPointVector,
-      keyPoints2: KeyPointVector): (Point2fVector, Point2fVector) = {
+                      matches: DMatchVector,
+                      keyPoints1: KeyPointVector,
+                      keyPoints2: KeyPointVector): (Point2fVector, Point2fVector) = {
 
     // Extract keypoints from each match, separate Left and Right
     val size = matches.size.toInt
@@ -74,6 +67,7 @@ class opencv {
     dest
   }
 }
+
 class canvas(title: String) {
   var canvas = new CanvasFrame(title)
   canvas.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE)
@@ -83,10 +77,12 @@ class canvas(title: String) {
     canvas.showImage(converter.convert(mat))
     canvas
   }
+
   def close(): Unit = {
     canvas.dispatchEvent(new WindowEvent(canvas, WindowEvent.WINDOW_CLOSING))
   }
 }
+
 class tests {
   def imshow_test(impath: String = "/lena.bmp"): Unit = {
     val opencv = new opencv
@@ -110,10 +106,10 @@ class tests {
     SIFT.create().detect(gs_im, SIFT_keypoints)
     val img_with_feats = new Mat()
     drawKeypoints(gs_im,
-                  SIFT_keypoints,
-                  img_with_feats,
-                  Scalar.all(-1),
-                  DrawMatchesFlags.DRAW_RICH_KEYPOINTS)
+      SIFT_keypoints,
+      img_with_feats,
+      Scalar.all(-1),
+      DrawMatchesFlags.DRAW_RICH_KEYPOINTS)
 
     //open another window with the drawn keypoints
     val cvs2 = new canvas("Image with SIFT keypoints")

@@ -1,0 +1,4 @@
+Counter({' leftturn_box.png -> 1.0': 21,
+         ' leftturn_box_small.png -> 1.0': 1,
+         ' uturn_box.png -> 1.0': 44})
+
